@@ -1,0 +1,383 @@
+﻿
+
+  
+## DESCRIPCIÓ BASE DE DADES ESCOLLIDA
+
+1.  Descriure la historia de la base de dades escollida, i qui dona suport.
+    
+
+  
+
+Apatxe Kafka, desenvolupat originalment per LinkedIn. Kafka va ser alliberat com a programari de codi obert a principis de 2011, permetent a desenvolupadors de tot el món contribuir i beneficiar-se de la seva robusta funcionalitat.
+
+  
+
+Els creadors de Kafka, Jay Kreps, Neha Narkhede i Jun Rao, no sols van aportar la seva visió tècnica sinó que també li van donar un nom distintiu, inspirat en l'autor Franz Kafka, reflectint el seu enfocament en l'escriptura eficient de dades.
+
+  
+
+Després del seu alliberament, Kafka no va trigar a captar l'atenció de la comunitat tecnològica i l'octubre de 2012, va aconseguir una fita significativa en graduar-se de la Incubadora d'Apatxe.
+
+  
+
+En 2014, la influència de Kafka es va expandir encara més amb la creació de Confluent, una empresa fundada per diversos dels enginyers originals del projecte en LinkedIn.
+
+  
+
+En l'actualitat, Kafka és utilitzat per milers d'empreses, entre elles més del 80% de les quals figuren en la llista Fortune 100. Entre elles es troben Twitter, Spotify, PayPal, Oracle, Netflix, LinkedIn, Cisco i Adidas, entre altres.
+
+  
+
+![](https://lh7-us.googleusercontent.com/_Nmu40Q1wZOvFeSZppYidKLN8zCxOw88luP1indYbpGUw74Fo4DhwUZyyTuu3slsTSWHykF3aBWdY_5enxW2yerweOAgwI_eyDLTiTlewrABrl_brz-w9f1aUQJwtsWa8EzWcg7phX693fXT4CPbFDU)![](https://lh7-us.googleusercontent.com/MCdtg-_bRARQnuX1wmumuASHPt3r9nI_snildsIdHdOAvXP4QhTkwK5jRifkBfE9Swmiz4ktreR40xK4UTyVW4HeTxM_1foFz5ofnuDkumw0TSncxmPsFp-UJYxtJneLe3uhaOdcwyinTnx2vV4BOAM)![](https://lh7-us.googleusercontent.com/3wwi_JCDhjrS68FKEMif4jzPfL6CP10ePn5DIGuui6Eduy0KKa3iQm2coxVHkSsWYuFl8RflNtWdS0RCpIJ_jqBaT7Zy3a975V4PfvYuFtPqkgBdUpmekW1GONnR36yFFXHyEMfmbEgGxdP6lAJ0ACc)![](https://lh7-us.googleusercontent.com/xcazSyW6JgZsQjG6PcTUJeXE0UeSt7JTBjfAyd0QsMJTAtk4iBjXE6OWSK9wXZFmzgzFdQe_p682ibZ3fnXF-vux7dXjWVXq-dwIM0DT00tH6i4cr9V9IQOvFtOeG9yK4mu-AIMriJ3Le3c3vvbvJLM)
+
+![](https://lh7-us.googleusercontent.com/2WvIT1EydbXFJYnuolDKnBHuzEyzX0o2a2BORaNz20DQdwytDEaJRkFm-ZfO2S-vmP5wgd75OFrjOF5eibdwtonfeB7zWjMdZmOXk3sycak0Y0uCCVcAW8YCvkSi3OtRDoFmVqqE7PT0WIkm8nEL4oc)![](https://lh7-us.googleusercontent.com/l3eDqBvQuvfvu-17TsKlk5fLu4i_xJOUGv5HSclXb3CyLLK32AZGd2CQmjE_mZZ-2crSJYwJ886iw9ekca_K4iGeVc4aGi9bflvuE99PsB-lghyuzn33sFE6poINnvEUBriL0Kvo9uYn-RIdzeRUxrg)![](https://lh7-us.googleusercontent.com/9AwtAvhHxIfXjKLTOEcsKNuUK64cWlmPV1v9ioV7MattMKsMjxpOc5IeBrM0RRY9jJukO5B4KyCMeOCS4cWUGQerxhk29P8i1IqhIgfyhgYpcnKcfW9Havmr5HKahAEdDEjxOHZHJ9gGbXPaKjZIMDQ)![](https://lh7-us.googleusercontent.com/9tcYEsFJCu8_dLamlvvbzqcX0UdilvPDcDVEXrvUp5UE0wfOa_NA0QCYEW59TxAoArzhEWlIFjA5XPxO4qOpNzGIQBvM_lLQtGmr0Zt1GKftvtx6za5XYkAsvfUkBylNEG_rY9ftxO-FM-eRKAPrSNE)
+
+  
+  
+  
+
+2.  Descriure en quins casos d’ús es aconsellable aquest tipus de base de dades. Posar exemples.
+    
+
+  
+
+Les empreses, per a no perdre avantatge en el mercat, estan augmentant el seu ús de l'anàlisi de dades a l'instant. Per tant, recorren a plataformes com Kafka per a aquest fi.
+
+  
+
+Apatxe Kafka és una plataforma de transmissió de dades distribuïda que busca oferir una solució integral, eficient i amb mínima latència per al processament de fluxos de dades en viu.
+
+  
+
+Duen a terme aquesta tasca en integrar sistemes de missatgeria, emmagatzematge i processament de dades per a facilitar la conservació i l'estudi de la informació.
+
+  
+
+És perfecte per a administrar la missatgeria en circumstàncies on es tracten grans quantitats de dades i on les bases de dades tradicionals suposen un perill o no són una alternativa factible.
+
+  
+
+A les empreses, aquesta capacitat brinda la possibilitat d'adquirir perspectives i fer projeccions sobre què han de conservar, impulsar, entre altres, basant-se en la informació més recent disponible.
+
+  
+
+Un exemple seria establir un sistema de transmissió de dades que recol·lecti informació sobre l'activitat dels usuaris per a monitorar l'ús del lloc web en viu. Kafka s'empraria per a capturar i guardar aquesta informació a l'instant, al mateix temps que proporciona dades per a les aplicacions que sostenen aquest sistema de transmissió.
+
+  
+
+Un exemple concret es dona en el sector financer i assegurador, on s'usa Kafka per a l'anàlisi exhaustiva de dades massives i la identificació de patrons en les transaccions. Això facilita la identificació precisa d'operacions sospitoses, contribuint a la seguretat dels sistemes i oferint una protecció òptima als usuaris.
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+3.  Versions de la solució (Community Edition, Enterprise Edition, cloud,...)
+    
+
+  
+
+Millores en 3.7.0 en comparació amb 3.6.1.
+
+  
+
+-   Noves característiques:
+    
+
+-   Implementació de retrocés exponencial per a clients (KAFKA-9800).
+    
+-   Introducció d'ajustos dinàmics de registre en l'àmbit de clúster per a Connect (KAFKA-15428).
+    
+-   Suport d'imatge Docker per a Apatxe Kafka (KAFKA-15445).
+    
+-   Streams StandbyTaskUpdateListener (KAFKA-15448).
+    
+-   Capacitat per a crear connectors en estat detingut (KAFKA-15470).
+    
+
+  
+
+-   Millores:
+    
+
+-   Diverses millores en els pics de latència de Kafka causats per la segmentació de registre en girar (KAFKA-9693).
+    
+-   Maneig de falles de disc de broker JBOD en Kraft (KAFKA-14127).
+    
+-   Suport per a assignació de tasques amb coneixement de rack en Kafka Streams (KAFKA-15022).
+    
+-   Millores de rendiment sota càrrega de disc alta (KAFKA-15046).
+    
+-   Diverses millores relacionades amb el rodat i retenció de registres (KAFKA-15047).
+    
+-   Actualització de dependències de Jackson a la versió 2.16.0 (KAFKA-15208).
+    
+-   Suport per a compilació amb Java 21 (KAFKA-15485).
+    
+-   Addició de BooleanConverter a Kafka Connect (KAFKA-15248).
+    
+
+  
+
+Correccions d'errors en 3.7.0 en comparació amb 3.6.1.
+
+  
+
+-   Correccions generals d'errors:
+    
+
+-   Diversos arranjaments relacionats amb configuracions de connectors, comportaments de broker i maneig d'errors.
+    
+-   Correccions per a possibles condicions de carrera, errors de concurrència i NullPointerExceptions.
+    
+-   Correccions per a comportaments incorrectes, com a mètriques incorrectes o errors inesperats.
+    
+-   Resolució de vulnerabilitats de seguretat i problemes de compatibilitat.
+    
+
+  
+
+-   Correccions d'errors específics de Kraft:
+    
+
+-   Correccions per a escenaris de divisió de cervell (KAFKA-15489).
+    
+-   Correccions per a problemes relacionats amb el maneig de metadades i migracions de Kraft.
+    
+-   Maneig d'excepcions i errors específics del mode Kraft.
+    
+-   Diverses millores i optimitzacions per al maneig de clústers de Kraft.
+    
+
+  
+
+En general, la versió 3.7.0 aporta una sèrie d'innovacions, avances i soluciones a problemes importants respecte a la versió 3.6.1. Això abasta millores en la conducta del client, en les capacitats de Connect, el Kafka Streams i en la correcció d'errors en diversos components, tot això com propòsit d'optimitzar el rendiment, la fiabilitat i la facilitat d'ús.
+
+  
+
+4.  Comparatiu amb altres bases de dades del seu segment.
+    
+
+  
+
+Model de Missatgeria:
+
+-   Kafka:
+    
+
+-   Utilitza un model de registre de transaccions distribuït.
+    
+-   Emmagatzema els missatges en temes (o tòpics).
+    
+-   Les dades es distribueixen eficientment entre diversos brokers.
+    
+-   Ideal per a fluxos de dades en temps real i alta escalabilitat.
+    
+
+-   RabbitMQ:
+    
+
+-   Es basa en un model de missatgeria basat en cues.
+    
+-   Els missatges s'envien i reben seqüencialment en cues.
+    
+-   Perfecte per a aplicacions que requereixen una comunicació ordenada i fiable.
+    
+-   Adequat per a escenaris menys intensius en temps real.
+    
+
+  
+
+Escalabilitat:
+
+-   Kafka:
+    
+
+-   És altament escalable i està dissenyat per a manejar grans volums de dades en clústers de servidors.
+    
+-   Ideal per a fluxos de dades en temps real i aplicacions amb alta demanda.
+    
+
+-   RabbitMQ:
+    
+
+-   També és escalable, però pot enfrontar desafiaments en transferències de missatges intensives.
+    
+-   Treballa en una arquitectura de node únic, la qual cosa pot afectar l'escalabilitat en uns certs escenaris.
+    
+
+  
+
+Persistència de Dades:
+
+-   Kafka:
+    
+
+-   Garanteix la persistència de les dades en disc.
+    
+-   És ideal per a casos en els quals la durabilitat dels missatges és crucial.
+    
+
+-   RabbitMQ:
+    
+
+-   També pot oferir persistència de dades, però requereix configuració addicional i pot afectar el rendiment.
+    
+
+  
+
+Latència:
+
+-   Kafka:
+    
+
+-   Està optimitzat per a baixa latència i alt rendiment, especialment en entorns de transmissió de dades en temps real.
+    
+-   És ideal per a aplicacions que requereixen un lliurament ràpid i eficient de missatges.
+    
+
+-   RabbitMQ:
+    
+
+-   Pot tenir una latència variable, depenent de la configuració i càrrega de treball.
+    
+-   Encara que és escalable, el seu enfocament se centra més en la confiança i la comunicació ordenada.
+    
+
+  
+
+  
+
+Casos d'Ús:
+
+-   Kafka:
+    
+
+-   És ideal per a aplicacions que requereixen processament de fluxos de dades a gran escala.
+    
+-   S'utilitza per a l'anàlisi de registres d'aplicacions i el processament d'esdeveniments en temps real.
+    
+
+-   RabbitMQ:
+    
+
+-   És més adequat per a aplicacions que centren en la comunicació asincrònica i l'orquestració de serveis en arquitectures distribuïdes.
+    
+
+  
+
+  
+
+  
+
+REALITZA LA DOCUMENTACIÓ NECESSÀRIA PER LA INSTAL·LACIÓ PAS A PAS
+
+  
+
+1.  Indica clarament els passos per reproduïr la instal·lació en una màquina Linux, és igual la distribució.
+    
+
+  
+
+Hem utilitzat la versió d'Ubuntu Server 22.02. Ja que Kafka està programat en Java, primer hem de verificar la nostra versió de Java:
+
+  
+![](https://lh7-us.googleusercontent.com/QcMA8etg2hOwJ_ZniStpuIFSXLD4Yg-2B11O0IJCBWmNTl_eevnEhmmRn5GShbT7L6E0W3JKdqQfH4Y0Omveq43UlyAJm6fVIAadeyDIL1DneoMXC6bnfh1mkyXzqjT-7bPBT5-bPKD7W84ekqPhJsI)  
+  
+  
+
+Necessitem descarregar els arxius binaris i pujar-los al servidor usant FTP (emprarem WinSCP per a transferir els arxius d'instal·lació).
+
+![](https://lh7-us.googleusercontent.com/HJadr3OPCxB2pkoXf67XHB4GPcskcZypN0C92jd_dKHAU4BUFmkZwfYYswLYD56ERB642oJZkOtAE4rTDFV72jhjNMNXI_wAqXkWx7CDCAVnhbqoSJ2ngIEid1sNSHR0bzqoVJ4VcKiHfeNFcA7wLAQ)
+
+![](https://lh7-us.googleusercontent.com/I_4s9WAXAof3zjAFB35GucpPREqbNTopC6dS6-Hk2bPH3d6XT3RzGihOsYLKKm9IoV1M0ORv4gCdisaCCDAVXgxHB8DUtOH5OcijoB1HnOWWWw0yV1s3ZF2rJpX5hrniTuQVUwgkhtdi8i1mSiJ3lQU)
+
+  
+
+Com es pot veure si ja comptem amb els arxius binaris en el servidor.
+
+![](https://lh7-us.googleusercontent.com/DsC6sWirCjQAY3DY1kZA9P3snHEVLKD8uaWM294naBByoSixGGN1Jy5N3KRHPQ3y9GKRSxZJjsNL34xHiNCobDP85AS15E5gM_vB8JRXHWTfQCN7nmH32O1h7uTTMb4HMn4uXEuhyl2TTzO_7qy-LOs)
+
+  
+
+Necessitarem descomprimir els arxius per a la instal·lació i crear un enllaç simbòlic.
+
+![](https://lh7-us.googleusercontent.com/gnYuybQGprhdU84gPCGCFUj8paCquRbV32CLg3UQVLs6giw5nJXX6XFqNTGAyZbp1y0mqW69KwvT2SXZhasg3T-n1-8JfYDnprZ1kR4XX_8krZa9Gz7BTxknUlLLxI0l1U3SbPWRmopusWxMlGanc5k)
+
+  
+
+És necessari establir la ruta d'inici per a Kafka en l'arxiu .profile i introduir el següent comando.
+
+Després, aplicarem els canvis dins de l'arxiu .profile.
+
+![](https://lh7-us.googleusercontent.com/E-JMXULPXCjzn4BPgylu15o_d6FUSu8PYNJ_vWuhlohA68FMFaTd6aQjz72sklKLBDF5DLNjv7R_hxf55Q936dWyfutGH5dIPvESgTVPYi6ApI3aHHDhriss7SUvnc9fyNCdqbJsQupaIRIXv27M5IE)
+
+  
+
+Haurem d'instal·lar el servei de ZooKeeper.
+
+![](https://lh7-us.googleusercontent.com/_PdGhIZiPu9vFWf25wJx_t-OBwVQAEYSZdwJYqZgY27LskTlX-SvQO-kfQNghcpZqyQF00jb7K6IqKTYLjZ3-GP-h39lT_qHnzHuGhScpoOLnJaeQlv1lDKJjC62SrbumprtEBh5Z9oWPrkU2UeVqZM)
+
+  
+
+Crearem la unitat de systemD per al servei de ZooKeeper.
+
+![](https://lh7-us.googleusercontent.com/xWeJ1MdtnD826XQHr_lTndzRmyM3qubVIL0wMWMq5HUkf9pKW_GHM0BcEA4s7abo50jVNIP3i4YXnhIWMXjQif6MBk-j63xYQeXFrwGBd0vv38b7_XYpqDbpUD4ZAoA4I7ETTdaiU5JNWFRa1OVvVeA)
+
+  
+  
+  
+  
+  
+
+Farem el mateix amb Kafka, hem d'assegurar-nos de tenir la ruta correcta de la carpeta de Kafka (Kafka home); en cas contrari, no funcionarà.![](https://lh7-us.googleusercontent.com/BT5khCBmtIpceSyxDunTlI4q3_LPQpKQzzBt97VbfLXmEy71jOAMS6jI4CmaiappUli4SWe0JU7p_NK8Ibr3J83iPXd88nHKIGts7qWja5AyFqyEwUmupMOQB5w4rO9aTDoaDsOlNfL26cHTGoRBcw0)
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+SERVEIS FUNCIONANT:![](https://lh7-us.googleusercontent.com/PrwSUvKi1AEylfzyUMhGrFDjfV5mma-lfEEyV97fqhh49NSEyqEEnRbv0VoJMuO2d9lGMgASEnW9Jgze5jkGaNxpAFyffapJiosvxwbZ04Q3qO21xs8u0LarzKZ1p10Yg4nku1gL9QgZhUtmDdg3WTc)
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+![](https://lh7-us.googleusercontent.com/EtmxAYwep8b2S1DDoAW35sndgn3l82U1d9KFRq64N5LIZkilAU0TL60CfNDVgsf9Gb6SSpZsoELtMnVG7FyPEhzZn-8Qx6TexAXek6vpstELjE0aZRcJZDRTp0jidXRHdvBIswxyKNf6hYykcULbro8)  
+  
+  
+  
+  
+  
+  
+
+2.  Si realitzes algun canvi en la configuració del firewall, o altres elements de seguretat per poder tenir accés indica quins canvis has hagut de fer.
+    
+
+Hem desactivat el Firewall per a poder accedir amb PuTTY, ja que en cas contrari no ens permetia fer-ho
